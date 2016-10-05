@@ -1,0 +1,23 @@
+{
+  "visual": {
+    "name": "Quadrant Chart",
+    "displayName": "QuadrantChart",
+    "guid": "PBI_CV_0381CDF1_4AF0_484E_A4E6_7D31B17500DE",
+    "visualClassName": "QuadrantChart",
+    "version": "1.0.0",
+    "description": "",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "1.1.0",
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json"
+}
