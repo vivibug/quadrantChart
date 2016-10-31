@@ -25,6 +25,29 @@
  */
 
 module powerbi.extensibility.visual {
+
+    /**
+    * Interface for a QuadrantChart view model.
+    * @property {QuadrantChartDataPoint[]} dataPoints - Set of data points the visual will render.
+    **/
+    interface QuadrantChartViewModel {
+        dataPoints: QuadrantChartDataPoint[];
+    }
+
+    /**
+    * Interface for a QuadrantChart data point.
+    *
+    * @interface
+    * @property {string} category - Name of the category
+    * @property {number} countOfComplaints - Number of complaints for that category
+    * @property {number} countOfKudos - Number of compliments for that category
+    **/
+    interface QuadrantChartDataPoint {
+        category: string;
+        countOfComplaints: number;
+        countOfKudos: number;
+    };
+
     export class QuadrantChart implements IVisual {
         private target: HTMLElement;
         private updateCount: number;
